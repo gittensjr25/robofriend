@@ -1,0 +1,30 @@
+
+h1 {
+    font-size: 500px ;
+    font-weight: 600px ;
+    background-image: linear-gradient(to left, #1605ad, #100796);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-shadow: 2px 2px rgba(131, 14, 20, 0.747);
+    border-color: #ff0808;
+    border-style:  thick ;
+    border-width: 0cap;
+    font-style: italic ;
+    
+}
+
+
+h1 {
+    font-family: fantasy;
+}
+ @keyframes Pop {
+        from{font-size: smaller; }
+        to{ font-size:x-large;}
+ }
+
+ h1 {
+     animation-name: Pop;
+     animation-duration: 5s ;
+ }
+
